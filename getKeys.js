@@ -12,12 +12,9 @@ let bitcoinNetwork = TESTNET; // MAINNET, TESTNET
 
 let purpose = "84" // 44: Legacy, 49: Nested Segwit, 84: Native Segeit
 
-let coinType = null;
+let coinType = "0"; // Mainnet
 
-if (bitcoinNetwork == MAINNET) {
-    coinType = "0";
-}
-else if (bitcoinNetwork == TESTNET) {
+if (bitcoinNetwork == TESTNET) {
     coinType = "1";
 }
 
