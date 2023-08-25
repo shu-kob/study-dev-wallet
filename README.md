@@ -48,3 +48,8 @@ bcli getblockchaininfo
 
 - https://mempool.space/signet
   - 音が鳴ります。ご注意ください。
+
+## 手数料計算
+
+- 手数料計算に便利なWebサイト
+　　- https://jlopp.github.io/bitcoin-transaction-size-calculator/
