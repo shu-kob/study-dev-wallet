@@ -57,6 +57,14 @@ npm install
 
 - https://mempool.space/signet
   - 音が鳴ります。ご注意ください。
+ 
+## 送金
+
+```
+alias bcli="docker exec bitcoin-core bitcoin-cli -rpcport=38332 -rpcuser=satoshi -rpcpassword=hoge"
+
+bcli sendrawtransaction <rawtx>
+```
 
 ## 手数料計算
 
