@@ -4,12 +4,12 @@ const { BIP32Factory } = require('bip32');
 const bip32 = BIP32Factory(ecc);
 const wif = require('wif');
 const { ECPairFactory } = require('ecpair');
+const ECPair = ECPairFactory(ecc);
 
 const { xpub } = require('./xpub.json');
+
 const MAINNET = bitcoin.networks.bitcoin;
 const TESTNET = bitcoin.networks.testnet;
-
-const ECPair = ECPairFactory(ecc);
 
 let bitcoinNetwork = TESTNET; // MAINNET or TESTNET
 
