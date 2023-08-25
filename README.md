@@ -52,4 +52,4 @@ bcli getblockchaininfo
 ## 手数料計算
 
 - 手数料計算に便利なWebサイト
-　　- https://jlopp.github.io/bitcoin-transaction-size-calculator/
+  - https://jlopp.github.io/bitcoin-transaction-size-calculator/
