@@ -12,9 +12,9 @@ https://qiita.com/shu-kob/items/380e26eaee025edd6fcb
 
 こちらのソースコードをお使いください。
 
-## 以下、前回のハンズオンとの差分
+# 以下、前回のハンズオンとの差分
 
-### Bitcoin CoreをSignetで立ち上げ
+## Bitcoin CoreをSignetで立ち上げ
 
 ビルドと同期に時間がかかるため、最初にこちらから実施
 
@@ -37,8 +37,14 @@ alias bcli="docker exec bitcoin-core bitcoin-cli -rpcport=38332 -rpcuser=satoshi
 
 bcli getblockchaininfo
 ```
+## Faucetからテストコインを調達
 
 同期を待つ間、FaucetからSignet BTCを調達
 
 - https://signet.bc-2.jp/
 - https://alt.signetfaucet.com/
+
+## Signetのブロックチェーンエクスプローラ
+
+- https://mempool.space/signet
+  - 音が鳴ります。ご注意ください。
