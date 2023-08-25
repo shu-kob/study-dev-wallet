@@ -37,6 +37,15 @@ alias bcli="docker exec bitcoin-core bitcoin-cli -rpcport=38332 -rpcuser=satoshi
 
 bcli getblockchaininfo
 ```
+## アドレス生成
+
+```
+cd study-dev-wallet
+
+npm install
+```
+
+
 ## Faucetからテストコインを調達
 
 同期を待つ間、FaucetからSignet BTCを調達
