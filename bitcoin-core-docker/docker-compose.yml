@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  bitcoind:
+    image: bitcoin-core:${IMAGE_TAG__BITCOIN:-latest}
+    container_name: bitcoin-core
+    volumes:
+      - ~/.bitcoin:/root/.bitcoin
+    restart: on-failure
+    stop_grace_period: 1m
+    expose:
+      - 38882
+      - 38883   
+    ports:
+      - "38882:38882"
+      - "38883:38883"
+    command: >
+      bitcoind -txindex -signet -rpcport=38332
