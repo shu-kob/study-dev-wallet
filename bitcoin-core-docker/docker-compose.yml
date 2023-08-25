@@ -15,4 +15,4 @@ services:
       - "38882:38882"
       - "38883:38883"
     command: >
-      bitcoind -txindex -signet -rpcport=38332
+      bitcoind -txindex -signet -rpcport=38332 -rpcuser=satoshi -rpcpassword=hoge
