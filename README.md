@@ -37,6 +37,14 @@ alias bcli="docker exec bitcoin-core bitcoin-cli -rpcport=38332 -rpcuser=satoshi
 
 bcli getblockchaininfo
 ```
+
+下記、エクスプローラと比較して最新のブロックまで同期できていることを確認
+
+## Signetのブロックチェーンエクスプローラ
+
+- https://mempool.space/signet
+  - 音が鳴ります。ご注意ください。
+
 ## アドレス生成
 
 ```
@@ -52,11 +60,6 @@ npm install
 
 - https://signet.bc-2.jp/
 - https://alt.signetfaucet.com/
-
-## Signetのブロックチェーンエクスプローラ
-
-- https://mempool.space/signet
-  - 音が鳴ります。ご注意ください。
  
 ## 送金
 
