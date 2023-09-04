@@ -12,7 +12,7 @@ https://qiita.com/shu-kob/items/380e26eaee025edd6fcb
 
 こちらのソースコードをお使いください。
 
-# 以下、前回のハンズオンとの差分
+# 以下、昨年のハンズオンとの差分
 
 ## Bitcoin CoreをSignetで立ち上げ
 
