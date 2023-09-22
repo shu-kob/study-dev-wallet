@@ -44,6 +44,7 @@ bcli getblockchaininfo
 
 - https://mempool.space/signet
   - 音が鳴ります。ご注意ください。
+- https://ex.signet.bublina.eu.org/
 
 ## アドレス生成
 
