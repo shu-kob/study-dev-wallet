@@ -4,6 +4,8 @@
 
 https://cryptocurrency.connpass.com/event/293743/
 
+2023年9月22日にも行いました。
+
 ↓以前同様のハンズオンを行った際の資料です。
 
 https://qiita.com/shu-kob/items/380e26eaee025edd6fcb
