@@ -4,7 +4,9 @@
 
 https://cryptocurrency.connpass.com/event/293743/
 
-2023年9月22日にも行いました。
+2023年9月22日にも #82 Bitcoinウォレット開発入門ハンズオン《続き》【ビットコインとか勉強会】オンライン を行いました。
+
+https://cryptocurrency.connpass.com/event/295495/
 
 ↓以前同様のハンズオンを行った際の資料です。
 
